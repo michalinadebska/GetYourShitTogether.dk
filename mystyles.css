@@ -1,0 +1,400 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    
+    
+    ul{
+        
+        list-style-type: none;
+        overflow: hidden;
+        background-color:hotpink;
+        
+       
+    }
+    
+    .workout{
+        padding-left: 355px;
+    }
+
+    li{
+        float: left;
+        display: block;
+       
+    }
+    
+    li a{
+        background-color:hotpink;
+        display:block;
+        text-align: right;
+        text-decoration: none;
+        color: white;
+        padding: 23px 60px;
+        font-weight: 800;
+        font-size: 30px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    }
+    
+    li a.active{
+        
+            background-color:rgb(226, 88, 164);
+            color: white;
+    }
+    
+    li a:hover {
+        background-color:rgb(226, 88, 164);
+      }
+
+      .logohome{
+          position:absolute
+      }
+
+      section{
+        width:30%;
+        float:right;
+        padding-top: 30px;
+        padding-right: 20px;
+        
+
+      }
+
+      
+      .art1{
+          color:black;
+          display:block;
+          text-decoration: none;
+          font-size: 28px;
+          float:right;
+          position:absolute;
+          top: 178px;
+          right:78px;
+          padding-top: 10px;
+           
+      }
+
+     .art1:hover{
+        color:rgb(226, 88, 164);
+     }
+
+     .art2{
+        color:black;
+        display: inherit;
+        text-decoration: none;
+        font-size: 28px;
+        float: right;
+        position: absolute;
+        top:284px;
+        right:135px;
+
+     }
+
+     .art2:hover{
+         color:rgb(226, 88, 164)
+     }
+
+     .art3{
+        color:black;
+        display: inherit;
+        text-decoration: none;
+        font-size: 28px;
+        float: right;
+        position: absolute;
+        top:375px;
+        right:90px;
+        line-height: 24px;
+
+     }
+
+     .art3:hover{
+         color:rgb(226, 88, 164)
+     }
+
+     .art4{
+        color:black;
+        display: inherit;
+        text-decoration: none;
+        font-size: 28px;
+        float: right;
+        position: absolute;
+        top:470px;
+        right:150px;
+
+     }
+
+     .art4:hover{
+         color:rgb(226, 88, 164)
+     }
+
+     .art5{
+        color:black;
+        display: inherit;
+        text-decoration: none;
+        font-size: 28px;
+        float: right;
+        position: absolute;
+        top:565px;
+        right:120px;
+
+     }
+
+     .art5:hover{
+         color:rgb(226, 88, 164)
+     }
+
+     .art6{
+        color:black;
+        display: inherit;
+        text-decoration: none;
+        font-size: 28px;
+        float: right;
+        position: absolute;
+        top:657px;
+        left:1320px;
+        line-height: 30px;
+        margin-right:60px;
+
+     }
+
+     .art6:hover{
+         color:rgb(226, 88, 164)
+     }
+ 
+     .art7{
+        color:black;
+        display: inherit;
+        text-decoration: none;
+        font-size: 30px;
+        float: right;
+        position: absolute;
+        top:562px;
+        right:70px;
+
+     }
+
+     .art7:hover{
+         color:rgb(226, 88, 164)
+     }
+
+     .art8{
+        color:black;
+        display: inherit;
+        text-decoration: none;
+        font-size: 30px;
+        float: right;
+        position: absolute;
+        top:623px;
+        right:70px;
+
+     }
+
+     .art8:hover{
+         color:rgb(226, 88, 164)
+     }
+
+      
+/*
+      .stickynote{
+        height: 300px;
+        width: 300px;
+          position:absolute;
+          bottom:180px;
+          right:590px;
+      }
+
+      .support{
+        position: absolute;
+        bottom: 240px;
+        left:984px;
+        color:white;
+        text-decoration: none;
+        text-align: center;
+        font-size: 40px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      }
+
+      .support:hover{
+        color: deeppink;
+    }
+
+
+    */
+
+.stickynote1{
+    background-color:hotpink;
+    height: 330px;
+    width: 330px;
+    margin-top: 100px;
+    margin-right: 90px;
+    border-style: solid;
+    border-right-width: 7px;
+    border-right-color:rgba(0, 0, 0, 0.205);
+    border-bottom-width:7px;
+    border-bottom-color:rgba(0, 0, 0, 0.205);
+    border-top:none;
+    border-left:none;
+    
+}
+
+.stickynote2{
+    background-color:lightskyblue;
+    height: 330px;
+    width: 330px;
+    position: absolute;
+    top:110px;
+    left:510px;
+    border-style: solid;
+    border-right-width: 7px;
+    border-right-color:rgba(0, 0, 0, 0.205);
+    border-bottom-width:7px;
+    border-bottom-color:rgba(0, 0, 0, 0.205);
+    border-top:none;
+    border-left:none;
+    
+}
+
+.stickynote3{
+    background-color:rgb(250, 242, 135);
+    height: 330px;
+    width: 330px;
+    margin-top: 220px;
+    margin-right:300px;
+    border-style: solid;
+    border-right-width: 7px;
+    border-right-color:rgba(0, 0, 0, 0.205);
+    border-bottom-width:7px;
+    border-bottom-color:rgba(0, 0, 0, 0.205);
+    border-top:none;
+    border-left:none;
+}
+
+.stickynote4{
+    background-color:rgb(198, 77, 214);
+    height: 330px;
+    width: 330px;
+    position: absolute;
+    top: 510px;
+    left:380px;
+    border-style: solid;
+    border-right-width: 7px;
+    border-right-color:rgba(0, 0, 0, 0.205);
+    border-bottom-width:7px;
+    border-bottom-color:rgba(0, 0, 0, 0.205);
+    border-top:none;
+    border-left:none;
+}
+
+.stickynote5{
+    background-color:rgb(238, 160, 14);
+    height: 330px;
+    width: 330px;
+    position: absolute;
+    top:580px;
+    left:830px;
+    border-style: solid;
+    border-right-width: 7px;
+    border-right-color:rgba(0, 0, 0, 0.205);
+    border-bottom-width:7px;
+    border-bottom-color:rgba(0, 0, 0, 0.205);
+    border-top:none;
+    border-left:none;
+}
+
+.stickynote6{
+    background-color:rgb(108, 216, 81);
+    height: 330px;
+    width: 330px;
+    position:absolute;
+    left:20px;
+    top:680px;
+    border-style: solid;
+    border-right-width: 7px;
+    border-right-color:rgba(0, 0, 0, 0.205);
+    border-bottom-width:7px;
+    border-bottom-color:rgba(0, 0, 0, 0.205);
+    border-top:none;
+    border-left:none;
+
+}
+
+.stickynote7{
+    background-color:lightskyblue;
+    height: 330px;
+    width: 330px;
+    margin-top:20px;
+    margin-right:270px;
+    border-style: solid;
+    border-right-width: 7px;
+    border-right-color:rgba(0, 0, 0, 0.205);
+    border-bottom-width:7px;
+    border-bottom-color:rgba(0, 0, 0, 0.205);
+    border-top:none;
+    border-left:none;
+}
+
+.footer{
+    background-color: hotpink;
+    height:20px;
+    position: absolute;
+    top:1190px;
+    width:100%;
+    height: 46px;
+    color: white;
+    text-align:right;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p{
+    margin-right:20px
+}
+
+
+.bigjourneys{
+    position:absolute;
+    top: 607px;
+    left:438px;
+    text-align: center;
+    color: white;
+}
+
+.bethe{
+    position:absolute;
+    top: 679px;
+    left:905px;
+    text-align: center;
+    color: white;
+}
+
+.ifit{
+    position:absolute;
+    top: 199px;
+    left:580px;
+    text-align: center;
+    color:white;
+
+}
+ 
+.dont{
+    position: absolute;
+    top:290px;
+    left:870px;
+    text-align: center;
+    color:white;
+}
+
+.does{
+    position: absolute;
+    top:390px;
+    left:200px;
+    text-align: center;
+    color: white;
+}
+
+.progress{
+    position: absolute;
+    top:790px;
+    left:67px;
+    text-align: center;
+    font-size: 40px;
+    color:white;
+}
